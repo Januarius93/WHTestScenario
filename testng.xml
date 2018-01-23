@@ -1,0 +1,17 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WH test suite" verbose="1">
+    <parameter name="url" value="https://www.google.pl" />
+    <parameter name="game" value="Mayfair Roulette" />
+    <parameter name="driver" value="webdriver.chrome.driver" />
+    <parameter name="pathToDriver" value="/home/stycz/Downloads/chromedriver" />
+
+    <test name="Game Search and Login" >
+        <classes>
+            <class name="tests.MainPageTest"/>
+            <class name="tests.SearchResultTest"/>
+            <class name="tests.LoginFormTest"/>
+        </classes>
+    </test>
+</suite>
+

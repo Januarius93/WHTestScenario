@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="WH test suite" duration-ms="100447" started-at="2018-01-23T11:47:00Z" finished-at="2018-01-23T11:48:41Z">
+    <groups>
+      <group name="desktop">
+        <method signature="MainPageTest.WHVegasMainTestPage(java.lang.String)[pri:0, instance:tests.MainPageTest@1d251891]" name="WHVegasMainTestPage" class="tests.MainPageTest"/>
+      </group> <!-- desktop -->
+      <group name="mobile">
+        <method signature="LoginFormTest.loginWindowTestMobile(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.LoginFormTest@58ceff1]" name="loginWindowTestMobile" class="tests.LoginFormTest"/>
+        <method signature="MainPageTest.WHVegasMainTestPage(java.lang.String)[pri:0, instance:tests.MainPageTest@1d251891]" name="WHVegasMainTestPage" class="tests.MainPageTest"/>
+        <method signature="SearchResultTest.testGameAfterSearchScreenMobile(java.lang.String)[pri:0, instance:tests.SearchResultTest@48140564]" name="testGameAfterSearchScreenMobile" class="tests.SearchResultTest"/>
+      </group> <!-- mobile -->
+    </groups>
+    <test name="Game Search and Login" duration-ms="100447" started-at="2018-01-23T11:47:00Z" finished-at="2018-01-23T11:48:41Z">
+      <class name="tests.LoginFormTest">
+        <test-method status="PASS" signature="setUpBeforeSuite(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.LoginFormTest@58ceff1]" name="setUpBeforeSuite" is-config="true" duration-ms="26000" started-at="2018-01-23T12:48:05Z" finished-at="2018-01-23T12:48:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Users\mstyczen\Documents\chromedriver.exe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://vegas.williamhill.com/en-gb/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emulation]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus 5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeSuite -->
+        <test-method status="PASS" signature="loginWindowTestMobile(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.LoginFormTest@58ceff1]" name="loginWindowTestMobile" duration-ms="9945" started-at="2018-01-23T12:48:31Z" finished-at="2018-01-23T12:48:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://vegas.williamhill.com/en-gb/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Volcano]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C:\Users\mstyczen\Documents\report.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWindowTestMobile -->
+      </class> <!-- tests.LoginFormTest -->
+      <class name="tests.MainPageTest">
+        <test-method status="PASS" signature="setUpBeforeSuite(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.MainPageTest@1d251891]" name="setUpBeforeSuite" is-config="true" duration-ms="26651" started-at="2018-01-23T12:47:00Z" finished-at="2018-01-23T12:47:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Users\mstyczen\Documents\chromedriver.exe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://vegas.williamhill.com/en-gb/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emulation]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus 5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeSuite -->
+        <test-method status="PASS" signature="WHVegasMainTestPage(java.lang.String)[pri:0, instance:tests.MainPageTest@1d251891]" name="WHVegasMainTestPage" duration-ms="4563" started-at="2018-01-23T12:47:27Z" finished-at="2018-01-23T12:47:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://vegas.williamhill.com/en-gb/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WHVegasMainTestPage -->
+      </class> <!-- tests.MainPageTest -->
+      <class name="tests.SearchResultTest">
+        <test-method status="PASS" signature="setUpBeforeSuite(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.SearchResultTest@48140564]" name="setUpBeforeSuite" is-config="true" duration-ms="26904" started-at="2018-01-23T12:47:31Z" finished-at="2018-01-23T12:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Users\mstyczen\Documents\chromedriver.exe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://vegas.williamhill.com/en-gb/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emulation]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nexus 5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeSuite -->
+        <test-method status="PASS" signature="testGameAfterSearchScreenMobile(java.lang.String)[pri:0, instance:tests.SearchResultTest@48140564]" name="testGameAfterSearchScreenMobile" duration-ms="6361" started-at="2018-01-23T12:47:58Z" finished-at="2018-01-23T12:48:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Volcano]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGameAfterSearchScreenMobile -->
+      </class> <!-- tests.SearchResultTest -->
+    </test> <!-- Game Search and Login -->
+  </suite> <!-- WH test suite -->
+</testng-results>

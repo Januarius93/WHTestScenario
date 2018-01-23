@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WH test suite" verbose="1">
+    <parameter name="url" value="https://vegas.williamhill.com/en-gb/" />
+    <parameter name="game" value="Mayfair Roulette" />
+    <parameter name="pathToDriver" value="/home/stycz/Downloads/chromedriver" />
+    <parameter name="reportPath" value="/home/stycz/report.html" />
+    <parameter name="mode" value="emulation" />
+    <parameter name="device" value="Nexus 5"/>
+
+    <test name="Game Search and Login" >
+       <groups>
+           <run>
+               <include name="mobile"/>
+           </run>
+       </groups>
+        <classes>
+           
+            <class name="tests.LoginFormTest" />
+        </classes>
+    </test>
+</suite>
+

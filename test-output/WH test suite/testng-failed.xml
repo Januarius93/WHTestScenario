@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [WH test suite]">
+  <parameter name="mode" value=""/>
+  <parameter name="game" value="Volcano"/>
+  <parameter name="pathToDriver" value="C:\Users\mstyczen\Documents\chromedriver.exe"/>
+  <parameter name="device" value=""/>
+  <parameter name="url" value="https://vegas.williamhill.com/en-gb/"/>
+  <test name="Game Search and Login(failed)">
+    <groups>
+      <run>
+        <include name="desktop"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.LoginFormTest">
+        <methods>
+          <include name="setUpBeforeSuite"/>
+          <include name="loginWindowTestDesktop" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.LoginFormTest -->
+      <class name="tests.SearchResultTest">
+        <methods>
+          <include name="setUpBeforeSuite"/>
+          <include name="testGameAfterSearchScreenDesktop" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.SearchResultTest -->
+    </classes>
+  </test> <!-- Game Search and Login(failed) -->
+</suite> <!-- Failed suite [WH test suite] -->
